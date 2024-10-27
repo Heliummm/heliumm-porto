@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Front-End Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"> <!-- Poppins Font -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Muhammad Daffa Aldyananta</h1>
+        <p>Front-End Developer</p>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <p>I am a Front-End Developer with experience in building responsive and interactive web applications. I have skills in HTML, CSS, JavaScript, and various frameworks.</p>
+        </section>
+
+        <section id="projects" aria-labelledby="projects-heading">
+            <h2 id="projects-heading">Projects</h2>
+            <ul>
+                <li>
+                    <h3>Project 1</h3>
+                    <p>A brief description of project 1.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+                </li>
+                <li>
+                    <h3>Project 2</h3>
+                    <p>A brief description of project 2.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+                </li>
+                <li>
+                    <h3>Project 3</h3>
+                    <p>A brief description of project 3.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" aria-labelledby="skills-heading">
+            <h2 id="skills-heading">Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML Logo" class="skill-logo">
+                    <span>HTML</span>
+                </div>
+                <div class="skill">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS Logo" class="skill-logo">
+                    <span>CSS</span>
+                </div>
+                <div class="skill">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript Logo" class="skill-logo">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React Logo" class="skill-logo">
+                    <span>React</span>
+                </div>
+                <div class="skill">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL Logo" class="skill-logo">
+                    <span>MySQL</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Me</h2>
+            <form action="submit_form.php" method="POST">
+                <div>
+                    <label for="name">Name:</label>
+                    <div class="input-wrapper">
+                        <span class="input-icon" aria-hidden="true">👤</span>
+                        <input type="text" id="name" name="name" required aria-required="true">
+                    </div>
+                </div>
+                
+                <div>
+                    <label for="email">Email:</label>
+                    <div class="input-wrapper">
+                        <span class="input-icon" aria-hidden="true">📧</span>
+                        <input type="email" id="email" name="email" required aria-required="true">
+                    </div>
+                </div>
+        
+                <div>
+                    <label for="message">Message:</label>
+                    <div class="input-wrapper">
+                        <span class="input-icon" aria-hidden="true">✉️</span>
+                        <textarea id="message" name="message" required aria-required="true"></textarea>
+                    </div>
+                </div>
+        
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Muhammad Daffa Aldyananta. All rights reserved.</p>
+        <div class="social-media">
+            <a href="https://instagram.com" target="https://www.instagram.com/daffaaldynta_/profilecard/?igsh=MTh2ZmRjcnFtOWRqaQ==" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://discord.com" target="https://discord.com/invite/SZnueT2M" rel="noopener noreferrer">
+                <i class="fab fa-discord"></i>
+            </a>
+            <a href="https://github.com" target="https://github.com/Heliummm" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://facebook.com" target="https://www.facebook.com/daffa.muhammad.507679?mibextid=ZbWKwL" rel="noopener noreferrer">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </div>
+    </footer>
+    <script>
+        
+    </script>
+</body>
+</html>
